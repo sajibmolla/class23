@@ -1,0 +1,239 @@
+/* common css start */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+/* common css end */
+
+/* header manu start */
+header {
+  background-color: #22c3a3;
+  padding: 25px 0px;
+}
+
+.menu-part ul {
+  list-style: none;
+  text-align: right;
+
+}
+
+.menu-part ul li {
+  display: inline-block;
+  margin: 0px 7px;
+}
+
+.menu-part ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  transition: all .3s;
+}
+
+.menu-part ul li a:hover{
+  color: tomato;
+}
+
+.logo-part {
+  width: 30%;
+  float: left;
+}
+
+.logo-part a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.menu-part {
+  width: 70%;
+  float: right;
+}
+
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.fixd-with {
+  width: 85%;
+  margin: auto;
+}
+
+/* menu end  */
+.welcome {
+  text-align: center;
+  background-image: url(https://i.ibb.co/rc6S7wn/header-bg01.jpg);
+  padding: 41px;
+  height: 540px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.welcome a {
+  text-decoration: none;
+  color: #f5fcfb;
+  border: 2px solid white;
+  padding: 10px 20px;
+  font-size: 20px;
+  transition: all .3s;
+}
+
+.welcome a:hover{
+  border-color: #bd1fbd;
+  background-color: #91035f;
+  border-radius: 5px;
+  font-size: 25px;
+}
+
+.welcome h1 {
+  font-size: 65px;
+  color: #f7fcfb;
+  margin-bottom: 35px;
+}
+
+.welcome h3 {
+  color: #beede4;
+  margin-bottom: 30px;
+}
+
+.content {
+  margin: 200px 0px;
+}
+
+.service-text {
+  text-align: center;
+  padding: 6% 0;
+}
+
+.service-text h1 {
+  color: #555555;
+}
+
+.service-text p {
+  color: hsl(0, 1%, 45%);
+  margin-top: 30px;
+}
+
+.service-menu {
+  text-align: center;
+  padding-bottom: 10%;
+}
+
+.service1 {
+  display: inline-block;
+  width: 258px;
+  margin-left: 50px;
+}
+
+.service1 a {
+  text-decoration: none;
+  margin-bottom: 16px;
+  display: inline-block;
+  font-size: 40px;
+  color: #0dbf9b;
+}
+
+.service1 h2 {
+  margin-bottom: 6px;
+  color: #666;
+}
+
+.service1 p {
+  color: hsl(0, 1%, 45%);
+}
+
+.our-service {
+  border-bottom: 3px solid #0dbf9b;
+}
+
+/* our service part end  */
+
+/* about section start */
+.about-section {
+  padding-bottom: 100px;
+}
+
+.about-text {
+  margin: 80px 0px;
+  text-align: center;
+}
+
+.about-text h1 {
+  color: #555555;
+  font-size: 50px;
+}
+
+.about-text p {
+  color: #777777;
+  margin-top: 15px;
+}
+
+/*image-part  */
+.image-part {
+  margin-left: 60px;
+}
+
+.image img {
+  float: left;
+  width: 530px;
+}
+
+.text {
+  transform: translate(39px, 14px);
+  width: 91%;
+  margin-top: 21px;
+}
+
+.text h2 {
+  color: #666666;
+}
+
+.text p {
+  margin-top: 10px;
+  color: #808080;
+}
+
+/* about section end */
+
+/* contact section part start */
+.contact {
+  background-color: #f6f6f6;
+  padding: 60px 0px;
+  height: 183px;
+}
+
+.contact-text {
+  text-align: center;
+}
+
+.contact-text h1 {
+  color: #555555;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.contact-text p {
+  color: #808080;
+}
+
+.contact-list1 {
+  float: left;
+  margin: 40px 141px;
+  padding-top: 35px;
+  text-align: center;
+}
+.contact-list1 h3 {
+  color: #808080;
+}
+
+.contact-list1 span{
+  color: #0cbe9a;
+}
+.contact-list i{
+  margin-bottom: 10px;
+}
+
+/* contact section part end */
